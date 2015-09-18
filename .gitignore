@@ -1,0 +1,39 @@
+#Folders to ignore
+Arduino 1.6/dist
+Arduino 1.6/drivers
+Arduino 1.6/examples
+Arduino 1.6/hardware
+Arduino 1.6/java
+Arduino 1.6/lib
+Arduino 1.6/reference
+Arduino 1.6/tools
+
+#Arduino Trash files to Ignore
+Arduino 1.6/arduino.l4j.ini
+Arduino 1.6/arduino_debug.l4j.ini
+Arduino 1.6/libusb0.dll
+Arduino 1.6/msvcp100.dll
+Arduino 1.6/msvcr100.dll
+Arduino 1.6/revisions.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Excecutables
+*.exe
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
