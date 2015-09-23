@@ -9,6 +9,8 @@ Arduino 1.6/reference
 Arduino 1.6/tools
 testESP8266/Debug
 testESP8266/Visual Micro
+testESP8266/Release
+
 
 #Arduino Trash files to Ignore
 Arduino 1.6/arduino.l4j.ini
@@ -18,6 +20,8 @@ Arduino 1.6/msvcp100.dll
 Arduino 1.6/msvcr100.dll
 Arduino 1.6/revisions.txt
 testESP8266/testESP8266.cppproj
+testESP8266/testESP8266.atsln
+testESP8266/testESP8266.atsuo
 
 # Windows image file caches
 Thumbs.db
