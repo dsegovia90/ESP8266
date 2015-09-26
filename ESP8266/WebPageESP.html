@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: #b0c4de;
+}
+</style>
+<title>
+Dabici
+</title>
+</head>
+<body>
+<h1>Dabici AC Thermostat</h1>
+<p>
+
+<input type="submit" name="btnCool" value="Cool"  id="btnCool" class="buttonSearch" />
+
+<input name="search" type="text" maxlength="512" id="searchcool" class="searchField" autocomplete="off" title="" />
+<script type="text/javascript">
+var button= document.getElementById('btnCool');
+button.onclick= function(){
+    var text= document.getElementById('searchcool').value;
+    location.href='http://192.168.199.114/cool/'+text;
+}
+
+</script>
+
+</p>
+
+<p>
+<input type="submit" name="btnHeat" value="Heat"  id="btnHeat" class="buttonSearch" />
+
+<input name="search" type="text" maxlength="512" id="searchheat" class="searchField" autocomplete="off" title="" />
+<script type="text/javascript">
+
+
+var button= document.getElementById('btnHeat');
+button.onclick= function(){
+    var text= document.getElementById('searchheat').value;
+    location.href='http://192.168.199.114/heat/'+text;
+}
+
+
+
+</script>
+</p>
+
+
+<p>
+<input type="submit" name="btnDelta" value="Delta"  id="btnDelta" class="buttonSearch" />
+
+<input name="search" type="text" maxlength="512" id="searchdelta" class="searchField" autocomplete="off" title="" />
+<script type="text/javascript">
+
+
+var button= document.getElementById('btnDelta');
+button.onclick= function(){
+    var text= document.getElementById('searchdelta').value;
+    location.href='http://192.168.199.114/delt/'+text;
+}
+
+
+
+</script>
+</p>
+
+<p>
+<input type="submit" name="btnStep" value="Step"  id="btnStep" class="buttonSearch" />
+
+<input name="search" type="text" maxlength="512" id="searchstep" class="searchField" autocomplete="off" title="" />
+<script type="text/javascript">
+
+
+var button= document.getElementById('btnStep');
+button.onclick= function(){
+    var text= document.getElementById('searchstep').value;
+    location.href='http://192.168.199.114/step/'+text;
+}
+
+
+
+</script>
+</p>
+
+<p>
+<input type="submit" name="btnMaxTemp" value="Max Temp"  id="btnMaxTemp" class="buttonSearch" />
+
+<input name="search" type="text" maxlength="512" id="searchmaxtemp" class="searchField" autocomplete="off" title="" />
+<script type="text/javascript">
+
+
+var button= document.getElementById('btnMaxTemp');
+button.onclick= function(){
+    var text= document.getElementById('searchmaxtemp').value;
+    location.href='http://192.168.199.114/maxt/'+text;
+}
+
+
+
+</script>
+</p>
+
+<p>
+<input type="submit" name="btnMinTemp" value="Min Temp"  id="btnMinTemp" class="buttonSearch" />
+
+<input name="search" type="text" maxlength="512" id="searchmintemp" class="searchField" autocomplete="off" title="" />
+<script type="text/javascript">
+
+
+var button= document.getElementById('btnMinTemp');
+button.onclick= function(){
+    var text= document.getElementById('searchmintemp').value;
+    location.href='http://192.168.199.114/mint/'+text;
+}
+
+
+
+</script>
+</p>
+
+<p>
+<p><b>Fan</b></p>
+<form action="http://192.168.199.114/fann/1">
+    <input type="submit" value="On">
+</form>
+
+<form action="http://192.168.199.114/fann/0">
+    <input type="submit" value="Off">
+</form>
+</p>
+
+
+<p><b>Ambient Temp : </b></p>
+<p><b>Target Temp : </b></p>
+<p><b>Mode : </b></p>
+
+<p>
+<p><b>Update Configuration</b></p>
+<form action="http://192.168.199.114/Conf/">
+    <input type="submit" value="Update">
+</form>
+
+</p>
+
+<p><b>Max Temp : </b></p>
+<p><b>Min Temp : </b></p>
+<p><b>Step : </b></p>
+<p><b>Delta : </b></p>
+
+</body>
+</html>
